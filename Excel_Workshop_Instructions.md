@@ -4,15 +4,14 @@
 **[Download Companion Excel Sheet](https://github.com/UNC-Libraries-data/Excel/raw/master/Excel_Workshop.xlsx)**
 
 *[ ] indicate sheet names in the companion Excel workbook*
-___________
 
 ## [Getting Started]
 ### Shortcuts
 
 | To... | Windows | Mac |
 |-------|---------|-----|
-| Find and replace | CTRL+F | &#8984;F |
-| Move to the edge of the data region | CTRL+Arrow key | &#8984;Arrow key |
+| Find and replace | CTRL+F | &#8984;+F |
+| Move to the edge of the data region | CTRL+Arrow key | &#8984;+Arrow key |
 | Select to the edge of the data region | CTRL+SHIFT+Arrow key| &#8984;+SHIFT+Arrow key |
 | Select entire column | CTRL+SPACEBAR | CTRL+SPACEBAR |
 | Select entire row | SHIFT+SPACEBAR | SHIFT+SPACEBAR |
@@ -63,7 +62,7 @@ The VLOOKUP function provides a way to merge or join additional data into a data
 ![VLOOKUP example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image8.png?raw=true)
 
 
-**Ex: =VLOOKUP(A3,$F$3:$G$9,2,FALSE)**
+**=VLOOKUP(A3,$F$3:$G$9,2,FALSE)**
 
 |Parameter|Value|Description|
 |---------|-----|-----------|
