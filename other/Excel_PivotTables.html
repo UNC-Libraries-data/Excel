@@ -1,0 +1,209 @@
+<!DOCTYPE html []>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="MarkdownViewer++" />
+    <title>Excel_PivotTables.md</title>
+    <style type="text/css">
+            
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td, h1, h2, h3, h4, h5, p, ul, ol, li {
+    page-break-inside: avoid; 
+}
+h1, h2, h3, h4, h5, h6, p, blockquote {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+   font-size: 13px;
+   line-height: 18px;
+   color: #737373;
+   background-color: white;
+   margin: 10px 13px 10px 13px;
+}
+table {
+   margin: 10px 0 15px 0;
+   border-collapse: collapse;
+}
+td,th {	
+   border: 1px solid #ddd;
+   padding: 3px 10px;
+}
+th {
+   padding: 5px 10px;	
+}
+
+a {
+   color: #0069d6;
+}
+a:hover {
+   color: #0050a3;
+   text-decoration: none;
+}
+a img {
+   border: none;
+}
+p {
+   margin-bottom: 9px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   color: #404040;
+   line-height: 36px;
+}
+h1 {
+   margin-bottom: 18px;
+   font-size: 30px;
+}
+h2 {
+   font-size: 24px;
+}
+h3 {
+   font-size: 18px;
+}
+h4 {
+   font-size: 16px;
+}
+h5 {
+   font-size: 14px;
+}
+h6 {
+   font-size: 13px;
+}
+hr {
+   margin: 0 0 19px;
+   border: 0;
+   border-bottom: 1px solid #ccc;
+}
+blockquote {
+   padding: 13px 13px 21px 15px;
+   margin-bottom: 18px;
+   font-family:georgia,serif;
+   font-style: italic;
+}
+blockquote:before {
+   content:"\201C";
+   font-size:40px;
+   margin-left:-10px;
+   font-family:georgia,serif;
+   color:#eee;
+}
+blockquote p {
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 18px;
+   margin-bottom: 0;
+   font-style: italic;
+}
+code, pre {
+   font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+   background-color: #fee9cc;
+   color: rgba(0, 0, 0, 0.75);
+   padding: 1px 3px;
+   font-size: 12px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+}
+pre {
+   display: block;
+   padding: 14px;
+   margin: 0 0 18px;
+   line-height: 16px;
+   font-size: 11px;
+   border: 1px solid #d9d9d9;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+pre code {
+   background-color: #fff;
+   color:#737373;
+   font-size: 11px;
+   padding: 0;
+}
+sup {
+   font-size: 0.83em;
+   vertical-align: super;
+   line-height: 0;
+}
+* {
+   -webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+   body {
+      width: 854px;
+      margin:10px auto;
+   }
+}
+@media print {
+   body,code,pre code,h1,h2,h3,h4,h5,h6 {
+      color: black;
+   }
+   table, pre {
+      page-break-inside: avoid;
+   }
+}
+        </style>
+  </head>
+  <body>
+    <h1 id="excel-lightning-talks-pivot-tables">Excel Lightning Talks: Pivot Tables</h1>
+    <p>January 10th, 2019, Matt Jansen, <a href="mailto:mtjansen@email.unc.edu">mtjansen@email.unc.edu</a></p>
+    <h2 id="what-can-i-use-pivot-tables-for">What can I use Pivot Tables for?</h2>
+    <p>Pivot Tables help aggregate and summarize large datasets in a smaller table to help answer questions or reformat datasets.</p>
+    <h3 id="example">Example:</h3>
+    <p>You have an Excel spreadsheet with all of the research consultations with UNC Librarians last year.  Each row contains:</p>
+    <ul>
+      <li>date, description,</li>
+      <li>the patron's academic status (undergraduate, graduate, etc.) and department</li>
+      <li>the librarian(s) involved</li>
+    </ul>
+    <p>A PivotTable can help you answer questions like:</p>
+    <ul>
+      <li>Which departments did we help the most last year?</li>
+      <li>What months or seasons were the busiest for a given librarian?</li>
+      <li>How many consultations do we provide to undergraduates? to faculty?</li>
+    </ul>
+    <p>All of these questions would be difficult and time-consuming to answer by <em>directly examining</em> a dataset with hundreds or thousands of rows, even using Excel formulas.  PivotTables provide an easy way to tabulate these elements of the dataset in easy to understand ways.</p>
+    <h2 id="preparing-data">Preparing data</h2>
+    <p>Pivot Tables will be much easier to use with <strong>clean</strong>, machine readable tables.  This means:</p>
+    <ul>
+      <li>Column names are in the first row, and the data starts immediately in the second row (no extra spacing, multiline titles, merged cells etc.)</li>
+      <li>Each row should represent "observations" at some common level.  Don't mix in groupings (e.g. All the states, and a US total in the same dataset).</li>
+      <li>Each column or "Field" should be consistent and well-labeled.</li>
+      <li>
+        <a href="https://www.jstatsoft.org/article/view/v059i10">Read more</a> about what constitutes clean or "Tidy Data"</li>
+    </ul>
+    <h2 id="demo-e-journal-data">Demo - E Journal Data</h2>
+    <p>This dataset covers 243 electronic journals and records their:</p>
+    <ul>
+      <li>Title</li>
+      <li>LC Subclass</li>
+      <li>Subject Team</li>
+      <li>Subject</li>
+      <li>2016 Usage</li>
+      <li>2016 List Price</li>
+      <li>2016 Cost Per Use (CPU)</li>
+      <li>2017 List Price</li>
+    </ul>
+    <p>
+      <strong>Note:</strong>  I've changed this dataset to obscure true values, so don't make any judgements on any PivotTables we build off this data!</p>
+    <h3 id="possible-questions">Possible Questions:</h3>
+    <ul>
+      <li>Which Subject area has the highest cost per use at UNC?</li>
+      <li>How many journals do we subscribe to in each Subject Team?</li>
+    </ul>
+    <h2 id="learn-more">Learn More!</h2>
+    <ul>
+      <li>
+        <a href="https://unc-libraries-data.github.io/Excel/Excel_Workshop_Instructions#introduction-to-pivottables">Research Hub Intro to PivotTables (with exercises and solutions)</a>
+      </li>
+      <li>Tableau, a tool for quickly building data visualizations, works in a very similar way to PivotTables.  Learn more at <a href="https://calendar.lib.unc.edu/event/4874955?hs=a">Tableau I</a>.</li>
+      <li>
+        <a href="https://guides.lib.unc.edu/mattjansen">Make an appointment with Matt</a>
+      </li>
+    </ul>
+  </body>
+</html>
