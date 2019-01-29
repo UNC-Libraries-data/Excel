@@ -5,9 +5,6 @@
 
 *[ ] indicate sheet names in the companion Excel workbook*
 
-## Downloads
-
-
 
 ## Table of Contents:
 * [Getting Started](#getting-started)
