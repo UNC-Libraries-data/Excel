@@ -5,7 +5,19 @@
 
 *[ ] indicate sheet names in the companion Excel workbook*
 
+## Table of Contents:
+* [Getting Started](#getting-started)
+* [Functions](#functions)
+* [Common Problems](#common-problems-splitting-on-delimiters)
+	+ [Delimiters](#common-problems-splitting-on-delimiters)
+	+ [Filling Blanks](#common-problems-filling-blanks)
+* [VLOOKUP](#vlookup)
+* [Pivot Tables](#introduction-to-pivot-tables)
+
+
 ## [Getting Started]
+
+This workshop aims to introduce some 
 ### Shortcuts
 
 | To... | Windows | Mac |
@@ -18,25 +30,30 @@
 | Enter value into all selected cells | CTRL+ENTER | ^+RETURN |
 
 ### Best Practices and [Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf)
-* Think of each row as an "observation" and each column as a "variable" or "field".
+* Each row is as an "observation" at a consistent level (e.g. no totals mixed in)
+* Each column as a "variable" or "field".
+	+ Don't store more than one piece of information in a cell.
 * Avoid color or other formatting alone to encode data.
 * Only one table per sheet.
-* Each observation should be of the same type (e.g. a student, or a NC count in a given year).
-* Try saving your data as a .csv (common separate values) file. This saves your sheet without formatting.
+* Blank cells indicate missing values, zeroes indicate **observed zeroes**.
+* Comments or notes should be integrated as a separate column or stored separately.
+
+Try saving your data as a .csv (common separate values) file. This saves just the active sheet sheet *without formatting*.
 
 ## [Functions]
 ### Using Functions in Excel
-* =SUM()
-* =AVERAGE()
+* `=SUM()`
+* `=AVERAGE()`
+* `=MEDIAN()`
 * Etc.
 
 ![Example of using SUM function in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image2.png?raw=true)
 
 ### Working with Text
-* **LEFT()** Extracts a specified number of characters from a variable, counting from the left
-	* **RIGHT()** same as above, but counting from the right
-* **TRIM()** Removes all whitespace aside from single spaces between words
-* **CONCATENATE()** combines multiple strings into a single string
+* `=LEFT()` Extracts a specified number of characters from a variable, counting from the left
+	+ `=RIGHT()` same as above, but counting from the right
+* `=TRIM()` Removes all whitespace aside from single spaces between words
+* `=CONCATENATE()` combines multiple strings into a single string
 
 ### Pasting
 * **Paste Special**: Making Functions Permanent
@@ -46,12 +63,13 @@
 	* Right-click: Copy
 	* Right-click: Paste Special > Transpose
 
-## Common Problems: [Splitting] on Delimiters
+## Common Problems:
+### [Splitting] on Delimiters
 The "Text to Columns" tool (Data Tab>) lets you split a cell into multiple cells based on width or a special character (delimiter).
 ![Text to columns example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image3.png?raw=true)
 
-## Common Problems: Filling [Blanks]
-When dealing with human-readable text, we often have categories listed once with the implication that all lines before the next category fall into this group. For example, Bertie Rudolph is a Freshman.
+### Filling [Blanks]
+When dealing with human-readable text, we often have categories listed once with the implication that all lines before the next category fall into this group. For example, in the Blanks sheet we might assume that Bertie Rudolph is a Freshman. While this is human readable, the relationship 
 * (PC) Home Tab, Editing > Find & Select > Go to Special > Blanks > OK
 * (Mac) Edit Menu > Find > Go To...> Special... > Blanks > OK
 * Type =, then hit the up directional arrow. Hit CTRL+Enter (PC) or &#8984;+Enter (Mac)
@@ -59,10 +77,27 @@ When dealing with human-readable text, we often have categories listed once with
 
 ## [VLOOKUP]
 The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
+
+### Cell References
+
+In each of our formulas so far, we've referred to cells like this:
+
+`=A1`
+
+to indicate the first row of column A.  When we copy or drag this reference one cell to the right it becomes B1, or if we drag it one cell down, it automatically becomes A2.
+
+Sometimes we don't want our references to change as we drag our formulas.  [Absolute references](https://support.office.com/en-us/article/switch-between-relative-absolute-aand-mixed-references-dfec08cd-ae65-4f56-839e-5f0d8d0baca9) provide unchanging references by placing a $ before the column letter and row number:
+
+`=$A$1`
+
+The reference above will stay the same no matter where we move it.
+
+### VLOOKUP Example
+
 ![VLOOKUP example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image8.png?raw=true)
 
 
-**=VLOOKUP(A3,$F$3:$G$9,2,FALSE)**
+**`=VLOOKUP(A3,$F$3:$G$9,2,FALSE)`**
 
 |Parameter|Value|Description|
 |---------|-----|-----------|
@@ -131,6 +166,7 @@ In most cases, there will be **many** rows in your dataset represented by one ce
 
 ### Getting Help:
 * [Lynda.com](http://software.sites.unc.edu/lynda/) provides training videos (free to UNC affiliates) on a wide variety of Excel functions
+* [Data Carpentry - Spreadsheets](http://datacarpentry.org/spreadsheets-socialsci/)
 * [Matt Jansen](http://guides.lib.unc.edu/mattjansen) ([guides.unc.edu/mattjansen](http://guides.lib.unc.edu/mattjansen)) of the Davis Library Research Hub is available for one-on-one consultations.
 
 ### Data Sources:
