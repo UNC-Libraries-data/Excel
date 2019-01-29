@@ -8,9 +8,9 @@
 ## Table of Contents:
 * [Getting Started](#getting-started)
 * [Functions](#functions)
-* [Common Problems](#common-problems-splitting-on-delimiters)
-	+ [Delimiters](#common-problems-splitting-on-delimiters)
-	+ [Filling Blanks](#common-problems-filling-blanks)
+* [Common Problems](#common-problems)
+	+ [Delimiters](#splitting-on-delimiters)
+	+ [Filling Blanks](#filling-blanks)
 * [VLOOKUP](#vlookup)
 * [Pivot Tables](#introduction-to-pivot-tables)
 
