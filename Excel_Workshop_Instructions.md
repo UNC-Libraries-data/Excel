@@ -5,6 +5,10 @@
 
 *[ ] indicate sheet names in the companion Excel workbook*
 
+## Downloads
+
+
+
 ## Table of Contents:
 * [Getting Started](#getting-started)
 * [Functions](#functions)
@@ -12,12 +16,11 @@
 	+ [Delimiters](#splitting-on-delimiters)
 	+ [Filling Blanks](#filling-blanks)
 * [VLOOKUP](#vlookup)
-* [Pivot Tables](#introduction-to-pivot-tables)
+* [Pivot Tables](#introduction-to-pivottables)
 
 
 ## [Getting Started]
 
-This workshop aims to introduce some 
 ### Shortcuts
 
 | To... | Windows | Mac |
