@@ -66,6 +66,7 @@ Try saving your data as a .csv (common separate values) file. This saves just th
 ## Common Problems:
 ### [Splitting] on Delimiters
 The "Text to Columns" tool (Data Tab>) lets you split a cell into multiple cells based on width or a special character (delimiter).
+
 ![Text to columns example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image3.png?raw=true)
 
 ### Filling [Blanks]
