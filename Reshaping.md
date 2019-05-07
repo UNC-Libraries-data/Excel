@@ -6,11 +6,11 @@ Sometimes we need to change the shape of a dataset by “pivoting” or “unpiv
 
 Take the following dataset. Here we have the output of four factories that have the unique IDs 101-104, for multiple years.
 
-![Unpivoted data table](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Origin_table_pivot.PNG)
+![Unpivoted data table](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Origin_table_pivot.PNG?raw=true)
 
 We have points representing the factories in ArcMap that we’d like to join this data to. What we need is for each factory ID to be in its own distinct row, with columns for each production year.
 
-![Pivoting example](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Pivot_arrow.PNG)
+![Pivoting example](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Pivot_arrow.PNG?raw=true)
 
 
 *Note: These instructions cover pivoting using Windows Excel’s Power Query. This process can also be performed using Excel pivot tables, which is detailed in “Working with Data in Excel”*
@@ -21,14 +21,14 @@ We have points representing the factories in ArcMap that we’d like to join thi
    2. Select "My table has headers"
    3. Select "Ok"
 
-![Create table for Power Query](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Create_table_pivot.PNG)
+![Create table for Power Query](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Create_table_pivot.PNG?raw=true)
 
 3. Power Query Editor will open
 4. Highlight the column you want to pivot. The attributes listed in the column you choose to pivot will become their own separate columns (in this example, “Year”).
 5. Select the "Transform" tab -> Select "Pivot Column"
 6. In the "Values Column" dropdown, select the column containing the data points you would like to fill under your new columns. In this example, we would like “Output” to fill in under “Year”.
 
-![Pivot column settings](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Pivot_column.PNG)
+![Pivot column settings](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Pivot_column.PNG?raw=true)
 
 7. Your data will pivot. Close the window and "Keep" your changes.
 
@@ -38,11 +38,11 @@ We have points representing the factories in ArcMap that we’d like to join thi
 
 What if you would like to unpivot columns? For example, you have the dataset below, showing the population of multiple cities over multiple years.
 
-![Pivoted data table](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Origin_table_unpivot.PNG)
+![Pivoted data table](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Origin_table_unpivot.PNG?raw=true)
 
 You’re hoping to calculate the average population of each city over the years in a pivot table. In order to do so, you need to structure your data so that city, population, and year are in different columns.
 
-![Unpivoting examle](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Unpivot_arrow.png)
+![Unpivoting examle](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Unpivot_arrow.png?raw=true)
 
 1. In Windows Excel, select the "Data" tab -> Select "From Table/Range"
 2. If "Create Table" prompt appears
@@ -50,7 +50,7 @@ You’re hoping to calculate the average population of each city over the years 
    2. Select "My table has headers"
    3. Click "Ok"
 
-![Create table for Power Query](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Create_table_unpivot.png)
+![Create table for Power Query](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Create_table_unpivot.png?raw=true)
 
 3. Power Query Editor will open
 4. Select the columns that you would like to condense into a single column. In this example, we want Raleigh, Durham, and Chapel Hill to become a single “City” column. To select multiple columns, hold down the shift key.
