@@ -2,6 +2,8 @@
 
 Sometimes we need to change the shape of a dataset by “pivoting” or “unpivoting” columns. Why would this be useful? GIS programs can be very particular about how certain tabular data is formatted. For example, you need to organize x and y coordinates in separate columns to use ArcMap’s “Display XY Data” function. Or, you need to organize your unique identifiers in a distinct column to perform a join. We will go over this second example here.
 
+The underlying data is available [here](https://github.com/UNC-Libraries-data/Excel/blob/master/PowerQueryData.xlsx?raw=true).
+
 ## Pivoting Columns
 
 Take the following dataset. Here we have the output of four factories that have the unique IDs 101-104, for multiple years.
@@ -24,6 +26,9 @@ We have points representing the factories in ArcMap that we’d like to join thi
 ![Create table for Power Query](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Create_table_pivot.PNG?raw=true)
 
 3. Power Query Editor will open
+
+![Pivot column settings](https://github.com/UNC-Libraries-data/Excel/blob/master/media/PowerQueryEditor.png?raw=true)
+
 4. Highlight the column you want to pivot. The attributes listed in the column you choose to pivot will become their own separate columns (in this example, “Year”).
 5. Select the "Transform" tab -> Select "Pivot Column"
 6. In the "Values Column" dropdown, select the column containing the data points you would like to fill under your new columns. In this example, we would like “Output” to fill in under “Year”.
