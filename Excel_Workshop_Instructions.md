@@ -20,6 +20,7 @@
 
 ### Shortcuts
 
+
 | To... | Windows | Mac |
 |-------|---------|-----|
 | Find and replace | CTRL+F | &#8984;+F |
@@ -28,6 +29,7 @@
 | Select entire column | CTRL+SPACEBAR | CTRL+SPACEBAR |
 | Select entire row | SHIFT+SPACEBAR | SHIFT+SPACEBAR |
 | Enter value into all selected cells* | CTRL+ENTER | ^+RETURN |
+
 *Highlight empty cells; type the value you want to enter in all of them; press the shortcut keys.
 
 ### Best Practices and [Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf)
@@ -71,14 +73,11 @@ The "Text to Columns" tool (Data Tab>) lets you split a cell into multiple cells
 ![Text to columns example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image3.png?raw=true)
 
 ### Filling [Blanks]
-When dealing with human-readable text, we often have categories listed once with the implication that all lines before the next category fall into this group. For example, in the Blanks sheet we might assume that Bertie Rudolph is a Freshman. While this is human readable, the relationship 
+When dealing with human-readable text, we often have categories listed once with the implication that all lines before the next category fall into this group. For example, in the Blanks sheet we might assume that Bertie Rudolph is a Freshman. While this is human readable, the relationship won't be clear to the computer!
 * (PC) Home Tab, Editing > Find & Select > Go to Special > Blanks > OK
 * (Mac) Edit Menu > Find > Go To...> Special... > Blanks > OK
 * Type =, then hit the up directional arrow. Hit CTRL+Enter (PC) or &#8984;+Enter (Mac)
 ![Filling blanks example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image4&5.PNG?raw=true)
-
-## [VLOOKUP]
-The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
 
 ### Cell References
 
@@ -94,7 +93,8 @@ Sometimes we don't want our references to change as we drag our formulas.  [Abso
 
 The reference above will stay the same no matter where we move it.
 
-### VLOOKUP Example
+## [VLOOKUP]
+The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
 
 ![VLOOKUP example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image8.png?raw=true)
 
@@ -107,6 +107,8 @@ The reference above will stay the same no matter where we move it.
 |table_array|$F$3:$G$9|The _other table_ we need information from (lock references with $)|
 |col_index_num|2|The _column from the other table_ we're looking for|
 |[range_lookup]|FALSE|Whether you want approximate matches [TRUE] or exact matches [FALSE]|
+
+VLOOKUP can refer to a value in a different sheet or even different workbook on your computer.  If you click into a cell on the other table while filling out your VLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.
 
 **Exercise: [Ex_Main],[Ex_Lookup]**
 
