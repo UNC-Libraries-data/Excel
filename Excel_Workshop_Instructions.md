@@ -116,7 +116,7 @@ VLOOKUP can refer to a value in a different sheet or even different workbook on 
 
 ### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/master/Pivot_Tables_IPEDS.xlsx)
 
-PivotTables create cross-tabulations displaying values split out across categories displayed as row and/or column headings.
+PivotTables create cross-tabulations displaying values split out across categories displayed as row and/or column headings.  Make sure you have only **one** cell or the entire table selected to ensure Excel auto-detects your data correctly.
 
 **Windows:** Insert Tab>PivotTable
 
@@ -124,10 +124,10 @@ PivotTables create cross-tabulations displaying values split out across categori
 
 **Adding data:** Click and drag to areas at the bottom of "PivotTable Fields". Remove by dragging back to list.
 
-**Columns and Rows:** The _categories_ on the edges of the table
+**Columns and Rows:** The _categories_ on the edges of the PivotTable
 * Multiple categories on a  single axis will be nested
 
-**Values:** The _numbers_ shown in the cells of the table (each cell represents the combination of its column and row categories.)
+**Values:** The _numbers_ shown in the cells of the PivotTable (each cell summarizes one variable for the group defined by the combination of its column and row categories.)
 
 ![PivotTable example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image9.png?raw=true)
 
@@ -162,6 +162,7 @@ In most cases, there will be **many** rows in your dataset represented by one ce
 
 ## Next Steps:
 ### Other Useful Tools:
+* Pivot Charts: Pivot Tables with added visualizations.
 * Power Query (Windows-only): Loading and filtering large datasets
 	* Data Tab > Get & Transform
 * Data Validation: Control data entry to prevent errors
