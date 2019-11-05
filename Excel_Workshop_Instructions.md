@@ -114,7 +114,7 @@ VLOOKUP can refer to a value in a different sheet or even different workbook on 
 
 ## Introduction to PivotTables
 
-### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/master/Pivot_Tables_IPEDS.xlsx)
+### This is the second file to download for the workshop: [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/master/Pivot_Tables_IPEDS.xlsx)
 
 PivotTables create cross-tabulations displaying values split out across categories displayed as row and/or column headings.  Make sure you have only **one** cell or the entire table selected to ensure Excel auto-detects your data correctly.
 
