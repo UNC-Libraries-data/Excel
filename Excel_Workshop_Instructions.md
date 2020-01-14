@@ -43,7 +43,7 @@
 
 Consider this example of data collected about observed small mammals in desert research plots (from Data Carpentry's Lesson for Ecologists). How could things go wrong with the data presented this way?  Try to think of at least two ways.
 
-![Tidy Data example with multiple observations in some fields](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Ecologists-Carpentries-tidy-data.png?raw=true)
+![Tidy Data example](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Ecologists-Carpentries-tidy-data.png?raw=true)
 
 Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
 
