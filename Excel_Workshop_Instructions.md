@@ -42,6 +42,7 @@
 * Comments or notes should be integrated as a separate column or stored separately.
 
 Consider this example of data collected about observed small mammals in desert research plots (from Data Carpentry's Lesson for Ecologists).
+
 ![Tidy Data example with multiple observations in some fields](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Ecologists-Carpentries-tidy-data.png)
 
 Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
