@@ -41,7 +41,7 @@
 * Blank cells indicate missing values, zeroes indicate **observed zeroes**.
 * Comments or notes should be integrated as a separate column or stored separately.
 
-Try saving your data as a .csv (common separate values) file. This saves just the active sheet sheet *without formatting*.
+Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
 
 ## [Functions]
 ### Using Functions in Excel
