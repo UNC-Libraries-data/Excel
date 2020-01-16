@@ -2,21 +2,21 @@
 # Working with Data in Excel
 
 ### **[Download Companion Excel Sheet](https://github.com/UNC-Libraries-data/Excel/raw/master/Excel_Workshop.xlsx)**
-
-*[ ] indicate sheet names in the companion Excel workbook*
+Position your windows so the spreadsheet takes up half your screen and this guide takes up the other half.
 
 
 ## Table of Contents:
 * [Getting Started](#getting-started)
 * [Functions](#functions)
-* [Common Problems](#common-problems)
+* [Common Problem](#common-problems)
 	+ [Delimiters](#splitting-on-delimiters)
 	+ [Filling Blanks](#filling-blanks)
 * [VLOOKUP](#vlookup)
 * [Pivot Tables](#introduction-to-pivottables)
 
 
-## [Getting Started]
+## Getting Started
+(View the first sheet of the Excel_Workshop spreadsheet.)
 
 ### Shortcuts
 
@@ -32,7 +32,10 @@
 
 *Highlight empty cells; type the value you want to enter in all of them; press the shortcut keys.
 
+We’ll come back to this last shortcut—it’s useful and we’ll cover it in more detail, but it’ll make more sense when you see the example in the spreadsheet.
+
 ### Best Practices and [Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf)
+
 * Each row is as an "observation" at a consistent level (e.g. no totals mixed in)
 * Each column as a "variable" or "field".
 	+ Don't store more than one piece of information in a cell.
@@ -47,8 +50,10 @@ Consider this example of data collected about observed small mammals in desert r
 
 Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
 
-## [Functions]
+## Functions
 ### Using Functions in Excel
+(View the Functions sheet of the spreadsheet.)
+
 * `=SUM()`
 * `=AVERAGE()`
 * `=MEDIAN()`
@@ -66,19 +71,42 @@ Try saving your data as a .csv (common separate values) file. This saves just th
 * **Paste Special**: Making Functions Permanent
 	* Right-click: Copy
 	* Right-click: Paste Special > Values
-* **Paste[Transpose]**
+	
+* **Paste Transpose**
+(View the Transpose sheet of the spreadsheet.)
+
 	* Right-click: Copy
 	* Right-click: Paste Special > Transpose
 
 ## Common Problems:
-### [Splitting] on Delimiters
+### Splitting on Delimiters
+(View the Splitting sheet.)
+
 The "Text to Columns" tool (Data Tab>) lets you split a cell into multiple cells based on width or a special character (delimiter).
 
 ![Text to columns example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image3.png?raw=true)
 
-### Filling [Blanks]
+### Filling Blanks
 When dealing with human-readable text, we often have categories listed once with the implication that all lines before the next category fall into this group. For example, in the Blanks sheet we might assume that Bertie Rudolph is a Freshman. While this is human readable, the relationship won't be clear to the computer!
-* (PC) Home Tab, Editing > Find & Select > Go to Special > Blanks > OK
+
+There are a couple of ways to fill such blanks.
+(View the Blanks 1 sheet.)
+
+1. You may already be familiar with this method.  Highlight the cell whose value you want to repeat.  Click on the small square at the lower right corner of the highlighted cell and drag it downwards over the cells you want to fill. The values will fill in when you release the mouse button.
+
+You can also use this technique to extend numeric or date <i>series</i>:  if you have consecutive cells with 1, 2, 3, highlight all three cells and drag the dot to extend the numeric sequence to whatever end value you wish. 
+
+You <i>cannot</i> use it to extend letter series, but you can repeat letter patterns:  if you extend A-B-C over six new cells, you won't get A-B-C-D-E-F-G-H-I, but instead A-B-C-A-B-C-A-B-C. 
+
+You can even select all three of the examples in Blank 1 and drag them at once.  Excel interprets each series appropriately.
+
+Note:  You can change some of your options with the Auto-fill Options icon that appears after you finish the fill:  choose to copy instead of extending a series; choose to fill without formatting; choose to fill the formatting only; etc.  Click the Auto-fill icon to browse its options.
+
+This works with both Windows machines and Macs, but only for cells continuous with the one you want to copy.  Also, for the Blanks 2 exercise in the next sheet, you would have to repeat this for each category you need to fill in.  
+
+Proceed to the Blanks 2 sheet. Think about scale:  imagine having to repeat this action if you had thousands of cells in different categories like this to fill.  
+
+2. * (PC) Home Tab, Editing > Find & Select > Go to Special > Blanks > OK
 * (Mac) Edit Menu > Find > Go To...> Special... > Blanks > OK
 * Type =, then hit the up directional arrow. Hit CTRL+Enter (PC) or &#8984;+Enter (Mac)
 ![Filling blanks example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image4&5.PNG?raw=true)
@@ -91,19 +119,24 @@ In each of our formulas so far, we've referred to cells like this:
 
 to indicate the first row of column A.  When we copy or drag this reference one cell to the right it becomes B1, or if we drag it one cell down, it automatically becomes A2.
 
-Sometimes we don't want our references to change as we drag our formulas.  [Absolute references](https://support.office.com/en-us/article/switch-between-relative-absolute-aand-mixed-references-dfec08cd-ae65-4f56-839e-5f0d8d0baca9) provide unchanging references by placing a $ before the column letter and row number:
+Sometimes we don't want our references to change as we drag our formulas, though.  [Absolute references](https://support.office.com/en-us/article/switch-between-relative-absolute-aand-mixed-references-dfec08cd-ae65-4f56-839e-5f0d8d0baca9) provide unchanging references by placing a $ before the column letter and row number:
 
 `=$A$1`
 
 The reference above will stay the same no matter where we move it.
 
-## [VLOOKUP]
+## VLOOKUP
+(View the VLOOKUP sheet.)
 The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
 
 ![VLOOKUP example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image8.png?raw=true)
 
 
+So here's an example of a VLOOKUP function:
+
 **`=VLOOKUP(A3,$F$3:$G$9,2,FALSE)`**
+
+and here's what each element of the function means:
 
 |Parameter|Value|Description|
 |---------|-----|-----------|
@@ -112,13 +145,14 @@ The VLOOKUP function provides a way to merge or join additional data into a data
 |col_index_num|2|The _column from the other table_ we're looking for|
 |[range_lookup]|FALSE|Whether you want approximate matches [TRUE] or exact matches [FALSE]|
 
-VLOOKUP can refer to a value in a different sheet or even different workbook on your computer.  If you click into a cell on the other table while filling out your VLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.
+VLOOKUP can refer to a value in a different sheet or even a different workbook on your computer.  If you click into a cell on the other table while filling out your VLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.
 
-**Exercise: [Ex_Main],[Ex_Lookup]**
+(View the Ex_Main sheet and the Ex_Lookup sheet for the following exercises.)
+**Exercise: Ex_Main, Ex_Lookup**
 
 ## Introduction to PivotTables
-
-### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/master/Pivot_Tables_IPEDS.xlsx)
+(View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
+### Pivot_Tables_IPEDS.xlsx(https://github.com/UNC-Libraries-data/Excel/raw/master/Pivot_Tables_IPEDS.xlsx)
 
 PivotTables create cross-tabulations displaying values split out across categories displayed as row and/or column headings.  Make sure you have only **one** cell or the entire table selected to ensure Excel auto-detects your data correctly.
 
