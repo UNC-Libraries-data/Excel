@@ -62,6 +62,8 @@ Try saving your data as a .csv (common separate values) file. This saves just th
 ![Example of using SUM function in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image2.png?raw=true)
 
 ### Working with Text
+If you find you need to reformat observations, here are some functions that can help.
+
 * `=LEFT()` Extracts a specified number of characters from a variable, counting from the left
 	+ `=RIGHT()` same as above, but counting from the right
 * `=TRIM()` Removes all whitespace aside from single spaces between words
@@ -94,15 +96,15 @@ There are a couple of ways to fill such blanks.
 
 1. You may already be familiar with this method.  Highlight the cell whose value you want to repeat.  Click on the small square at the lower right corner of the highlighted cell and drag it downwards over the cells you want to fill. The values will fill in when you release the mouse button.
 
-You can also use this technique to extend numeric or date <i>series</i>:  if you have consecutive cells with 1, 2, 3, highlight all three cells and drag the dot to extend the numeric sequence to whatever end value you wish. 
+    You can also use this technique to extend numeric or date <i>series</i>:  if you have consecutive cells with 1, 2, 3, highlight all three cells and drag the dot to extend the numeric sequence to whatever end value you wish. 
 
-You <i>cannot</i> use it to extend letter series, but you can repeat letter patterns:  if you extend A-B-C over six new cells, you won't get A-B-C-D-E-F-G-H-I, but instead A-B-C-A-B-C-A-B-C. 
+    You <i>cannot</i> use it to extend letter series, but you can repeat letter patterns:  if you extend A-B-C over six new cells, you won't get A-B-C-D-E-F-G-H-I, but instead A-B-C-A-B-C-A-B-C. 
 
-You can even select all three of the examples in Blank 1 and drag them at once.  Excel interprets each series appropriately.
+    You can even select all three of the examples in Blank 1 and drag them at once.  Excel interprets each series appropriately.
 
-Note:  You can change some of your options with the Auto-fill Options icon that appears after you finish the fill:  choose to copy instead of extending a series; choose to fill without formatting; choose to fill the formatting only; etc.  Click the Auto-fill icon to browse its options.
+    Note:  You can change some of your options with the Auto-fill Options icon that appears after you finish the fill:  choose to copy instead of extending a series; choose to fill without formatting; choose to fill the formatting only; etc.  Click the Auto-fill icon to browse its options.
 
-This works with both Windows machines and Macs, but only for cells continuous with the one you want to copy.  Also, for the Blanks 2 exercise in the next sheet, you would have to repeat this for each category you need to fill in.  
+    This works with both Windows machines and Macs, but only for cells continuous with the one you want to copy.  Also, for the Blanks 2 exercise in the next sheet, you would have to repeat this for each category you need to fill in.  
 
 Proceed to the Blanks 2 sheet. Think about scale:  imagine having to repeat this action if you had thousands of cells in different categories like this to fill.  
 
