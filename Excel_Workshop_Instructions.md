@@ -68,6 +68,8 @@ If you find you need to reformat observations, here are some functions that can 
 	+ `=RIGHT()` same as above, but counting from the right
 * `=TRIM()` Removes all whitespace aside from single spaces between words
 * `=CONCATENATE()` combines multiple strings into a single string
+* Advanced exercise:  logical function, IF
+    If you're used to logical functions, give this exercise a try.  The solution is available in the Completed Companion Excel Workbook linked near the bottom of this page.
 
 ### Pasting
 * **Paste Special**: Making Functions Permanent
