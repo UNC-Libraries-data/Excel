@@ -106,7 +106,7 @@ There are a couple of ways to fill such blanks.
 
     This works with both Windows machines and Macs, but only for cells continuous with the one you want to copy.  Also, for the Blanks 2 exercise in the next sheet, you would have to repeat this for each category you need to fill in.  
 
-Proceed to the Blanks 2 sheet. Think about scale:  imagine having to repeat this action if you had thousands of cells in different categories like this to fill.  
+*Proceed to the Blanks 2 sheet. Think about scale:  imagine having to repeat this action if you had thousands of cells in different categories like this to fill.*  
 
 2. * (PC) Home Tab, Editing > Find & Select > Go to Special > Blanks > OK
 * (Mac) Edit Menu > Find > Go To...> Special... > Blanks > OK
@@ -128,7 +128,7 @@ Sometimes we don't want our references to change as we drag our formulas, though
 The reference above will stay the same no matter where we move it.
 
 ## VLOOKUP
-(View the VLOOKUP sheet.)
+(View the VLOOKUP sheet.)  
 The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
 
 ![VLOOKUP example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image8.png?raw=true)
@@ -136,16 +136,16 @@ The VLOOKUP function provides a way to merge or join additional data into a data
 
 So here's an example of a VLOOKUP function:
 
-**`=VLOOKUP(A3,$F$3:$G$9,2,FALSE)`**
+    **`=VLOOKUP(A3,$F$3:$G$9,2,FALSE)`**
 
 and here's what each element of the function means:
 
-|Parameter|Value|Description|
-|---------|-----|-----------|
-|lookup_value|A3|_Value in our main table_ that we're looking to match in the other table|
-|table_array|$F$3:$G$9|The _other table_ we need information from (lock references with $)|
-|col_index_num|2|The _column from the other table_ we're looking for|
-|[range_lookup]|FALSE|Whether you want approximate matches [TRUE] or exact matches [FALSE]|
+|Value|Parameter|Description|
+|-----|---------|-----------|
+|A3|lookup_value|_Value in our main table_ that we're looking to match in the other table|
+|$F$3:$G$9|table_array|The _other table_ we need information from (lock references with $)|
+|2|col_index_num|The _column from the other table_ we're looking for|
+|FALSE|[range_lookup]|Whether you want approximate matches [TRUE] or exact matches [FALSE]|
 
 VLOOKUP can refer to a value in a different sheet or even a different workbook on your computer.  If you click into a cell on the other table while filling out your VLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.
 
