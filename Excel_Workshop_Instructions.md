@@ -151,8 +151,8 @@ and here's what each element of the function means:
 
 VLOOKUP can refer to a value in a different sheet or even a different workbook on your computer.  If you click into a cell on the other table while filling out your VLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.
 
-(View the Ex_Main sheet and the Ex_Lookup sheet for the following exercises.)
-**Exercise: Ex_Main, Ex_Lookup**
+(View the Ex_Main sheet for a second, more complex VLOOKUP exercise which will look up a second table located in the Ex_Lookup sheet.)
+
 
 ## Introduction to PivotTables
 (View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
