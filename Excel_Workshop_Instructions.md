@@ -165,7 +165,8 @@ PivotTables create cross-tabulations displaying values split out across categori
 **Mac:** Go to Data Tab>PivotTable>Create Manual PivotTable...
 
 **Adding data:** Click and drag to areas at the bottom of "PivotTable Fields". Remove by dragging back to list.
-Go ahead and drag the category State to the Rows area, and Control of Institution to the Columns box.  Finally, click to select the very last variable in the list, Endowment (per FTE enrollment).  It should appear in the Values box as "Sum of Endowment (p...".
+
+Go ahead and drag the category <strong>State</strong> to the Rows area, and <strong>Control of Institution</strong> to the Columns box.  Finally, click to select the very last variable in the list, <strong>Endowment (per FTE enrollment)</strong>.  It should appear in the Values box as "Sum of Endowment (p...," but you can change the value that appears there.  Click on it to see the menu, Value Field Settings.  You could choose Average to make your pivot table look like the example below.  We'll talk about this more in a minute.
 
 **Columns and Rows:** The _categories_ on the edges of the PivotTable
 * Multiple categories on a  single axis will be nested
