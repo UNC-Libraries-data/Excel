@@ -177,7 +177,7 @@ Go ahead and drag the category State to the Rows area, and Control of Institutio
 In most cases, there will be **many** rows in your dataset represented by one cell in your PivotTable, so we need to summarize or aggregate the data. In the example above, there are many public or private universities in each state.
 
 ### Aggregation of Values
-* Click on the field in the Values area and choose "Value Field Settings" to change the default aggregation
+* Click on the field in the Values area and choose "Value Field Settings" in the window that appears to change the default aggregation.
 ![Example of changing default aggregation in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image10.png?raw=true)
 * "Summarize Values By" determines the mathematical function used to summarize the cells
 	* Frequencies are available via the Count function. Note: this **will not count missing values.**
@@ -204,7 +204,7 @@ In most cases, there will be **many** rows in your dataset represented by one ce
 	1. What percent of the "Applications Total" go to each of the top two "Degrees of Urbanization"? (Hint: Use the Show Values As tab in Values Field Settings)
 
 ## Next Steps:
-### Other Useful Tools:
+### Other Useful Tools to Explore in Excel:
 * Pivot Charts: Pivot Tables with added visualizations.
 * Power Query (Windows-only): Loading and filtering large datasets
 	* Data Tab > Get & Transform
