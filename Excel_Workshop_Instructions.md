@@ -8,14 +8,17 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 ## Table of Contents:
 * [Getting Started](#getting-started)
 * [Functions](#functions)
-* [Common Problem](#common-problems)
+* [Common Problems](#common-problems)
 	+ [Delimiters](#splitting-on-delimiters)
 	+ [Filling Blanks](#filling-blanks)
 * [VLOOKUP](#vlookup)
-* [Pivot Tables](#introduction-to-pivottables)
+* [PivotTables](#introduction-to-pivottables)
 
+<i><strong>Instructional videos are linked at the beginning of each section.</strong></i>
 
 ## Getting Started
+<strong>[Module 1 Video:  Getting Started](https://youtube.com/placeholder/index.html)</strong>
+
 (View the first sheet of the Excel_Workshop spreadsheet.)
 
 ### Shortcuts
@@ -51,6 +54,8 @@ Consider this example of data collected about observed small mammals in desert r
 Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
 
 ## Functions
+<strong>[Module 2 Video:  Functions](https://youtube.com/placeholder/index.html)</strong>
+
 ### Using Functions in Excel
 (View the Functions sheet of the spreadsheet.)
 
@@ -82,7 +87,9 @@ If you find you need to reformat observations, here are some functions that can 
 	* Right-click: Copy
 	* Right-click: Paste Special > Transpose
 
-## Common Problems:
+## Common Problems
+<strong>[Module 3 Video:  Common Problems](https://youtube.com/placeholder/index.html)</strong>
+
 ### Splitting on Delimiters
 (View the Splitting sheet.)
 
@@ -130,6 +137,8 @@ Sometimes we don't want our references to change as we drag our formulas, though
 The reference above will stay the same no matter where we move it.
 
 ## VLOOKUP
+<strong>[Module 4 Video:  VLOOKUP](https://youtube.com/placeholder/index.html)</strong>
+
 (View the VLOOKUP sheet.)  
 The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
 
@@ -155,6 +164,8 @@ VLOOKUP can refer to a value in a different sheet or even a different workbook o
 
 
 ## Introduction to PivotTables
+<strong>[Module 5 Video:  PivotTables](https://youtube.com/placeholder/index.html)</strong>
+
 (View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
 ### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/master/Pivot_Tables_IPEDS.xlsx)
 
@@ -206,7 +217,7 @@ In most cases, there will be **many** rows in your dataset represented by one ce
 
 ## Next Steps:
 ### Other Useful Tools to Explore in Excel:
-* Pivot Charts: Pivot Tables with added visualizations.
+* Pivot Charts: PivotTables with added visualizations.
 * Power Query (Windows-only): Loading and filtering large datasets
 	* Data Tab > Get & Transform
 * Data Validation: Control data entry to prevent errors
