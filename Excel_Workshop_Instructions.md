@@ -14,7 +14,7 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 * [VLOOKUP](#vlookup)
 * [PivotTables](#introduction-to-pivottables)
 
-<i><strong>Instructional videos are linked at the beginning of each section.</strong>  Please list questions on [this page](https://go.unc.edu/ExcelQuestions).</i>
+<i><strong>Instructional videos are linked at the beginning of each of the five sections.</strong>  Please list questions on [this page](https://go.unc.edu/ExcelQuestions) for the discussion meeting.</i>
 
 ## Getting Started
 <strong>[Module 1 Video:  Getting Started](https://youtube.com/placeholder/index.html)</strong> (14:11 minutes)
