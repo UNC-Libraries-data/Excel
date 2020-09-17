@@ -17,7 +17,7 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 <i><strong>Instructional videos are linked at the beginning of each of the five sections.</strong>  Please list questions on [this page](https://go.unc.edu/ExcelQuestions) for the discussion meeting.</i>
 
 ## Getting Started
-<strong>[Module 1 Video:  Getting Started](https://youtube.com/placeholder/index.html)</strong> (14:11 minutes)
+<strong>[Module 1 Video:  Getting Started](https://youtu.be/o7aj5c9GwHY)</strong> (14:12 minutes)
 
 (View the first sheet of the Excel_Workshop spreadsheet.)
 
@@ -54,7 +54,7 @@ Consider this example of data collected about observed small mammals in desert r
 Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
 
 ## Functions
-<strong>[Module 2 Video:  Functions](https://youtube.com/placeholder/index.html)</strong> (31:58 minutes)
+<strong>[Module 2 Video:  Functions](https://youtu.be/JJSfHUafclc)</strong> (31:58 minutes)
 
 ### Using Functions in Excel
 (View the Functions sheet of the spreadsheet.)
@@ -88,7 +88,7 @@ If you find you need to reformat observations, here are some functions that can 
 	* Right-click: Paste Special > Transpose
 
 ## Common Problems
-<strong>[Module 3 Video:  Common Problems](https://youtube.com/placeholder/index.html)</strong> (25:50 minutes)
+<strong>[Module 3 Video:  Common Problems](https://youtu.be/dVxyR0ROnAM)</strong> (25:51 minutes)
 
 ### Splitting on Delimiters
 (View the Splitting sheet.)
@@ -137,7 +137,7 @@ Sometimes we don't want our references to change as we drag our formulas, though
 The reference above will stay the same no matter where we move it.
 
 ## VLOOKUP
-<strong>[Module 4 Video:  VLOOKUP](https://youtube.com/placeholder/index.html)</strong> (29:13 minutes)
+<strong>[Module 4 Video:  VLOOKUP](https://youtu.be/HW-l6G9ji0I)</strong> (29:14 minutes)
 
 (View the VLOOKUP sheet.)  
 The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
@@ -164,7 +164,7 @@ VLOOKUP can refer to a value in a different sheet or even a different workbook o
 
 
 ## Introduction to PivotTables
-<strong>[Module 5 Video:  PivotTables](https://youtube.com/placeholder/index.html)</strong> (34:51 minutes)
+<strong>[Module 5 Video:  PivotTables](https://youtu.be/VcfDnAAx8Sk)</strong> (34:52 minutes)
 
 (View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
 ### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/master/Pivot_Tables_IPEDS.xlsx)
