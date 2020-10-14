@@ -31,7 +31,7 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 | Select to the edge of the data region | CTRL+SHIFT+Arrow key| &#8984;+SHIFT+Arrow key |
 | Select entire column | CTRL+SPACEBAR | CTRL+SPACEBAR |
 | Select entire row | SHIFT+SPACEBAR | SHIFT+SPACEBAR |
-| Enter value into all selected cells* | CTRL+ENTER | ^+RETURN |
+| Enter value into all selected cells* | CTRL+ENTER | &#8984;+RETURN |
 
 *Highlight empty cells; type the value you want to enter in all of them; press the shortcut keys.
 
