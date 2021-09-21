@@ -72,7 +72,7 @@ If you find you need to reformat observations, here are some functions that can 
 * `=LEFT()` Extracts a specified number of characters from a variable, counting from the left
 	+ `=RIGHT()` same as above, but counting from the right
 * `=TRIM()` Removes all whitespace aside from single spaces between words
-* `=CONCATENATE()` combines multiple strings into a single string
+* `=CONCATENATE()` or `=CONCAT()` combines multiple cells of text into a single text cell
 * <strong>Advanced exercise</strong>:  logical function, IF  
     If you're used to logical functions, give this exercise a try.  The solution is available in the Completed Companion Excel Workbook linked near the bottom of this page.
 
