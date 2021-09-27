@@ -214,7 +214,7 @@ The VLOOKUP function provides a way to merge or join additional data into a data
 
 So here's an example of a VLOOKUP function:
 
-    **`=VLOOKUP(A3,$F$3:$G$9,2,FALSE)`**
+    `=VLOOKUP(A3,$F$3:$G$9,2,FALSE)`
 
 and here's what each element of the function means:
 
