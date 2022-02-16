@@ -1,7 +1,7 @@
-![UNC Libraries logo](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image1.png?raw=true)
+![UNC Libraries logo](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image1.png?raw=true)
 # Working with Data in Excel
 <strong>Bookmark this page to return to it with ease.</strong>
-### **[Download Companion Excel Sheet](https://github.com/UNC-Libraries-data/Excel/raw/master/Excel_Workshop.xlsx)**
+### **[Download Companion Excel Sheet](https://github.com/UNC-Libraries-data/Excel/raw/main/Excel_Workshop.xlsx)**
 Position your windows so the spreadsheet takes up half your screen and this guide takes up the other half.
 
 
@@ -49,7 +49,7 @@ We’ll come back to this last shortcut—it’s useful and we’ll cover it in 
 
 Consider this example of data collected about observed small mammals in desert research plots (from Data Carpentry's Lesson for Ecologists, [Formatting Data Tables in Spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data/index.html) section). How could things go wrong with the data presented this way?  Try to think of at least two ways.
 
-![not-so-Tidy Data example](https://github.com/UNC-Libraries-data/Excel/blob/master/media/Ecologists-Carpentries-tidy-data.png?raw=true)
+![not-so-Tidy Data example](https://github.com/UNC-Libraries-data/Excel/blob/main/media/Ecologists-Carpentries-tidy-data.png?raw=true)
 
 Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
 
@@ -64,7 +64,7 @@ Try saving your data as a .csv (common separate values) file. This saves just th
 * `=MEDIAN()`
 * Etc.
 
-![Example of using SUM function in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image2.png?raw=true)
+![Example of using SUM function in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image2.png?raw=true)
 
 ### Working with Text
 If you find you need to reformat observations, here are some functions that can help.
@@ -167,7 +167,7 @@ VLOOKUP can refer to a value in a different sheet or even a different workbook o
 <strong>[Module 5 Video:  PivotTables](https://youtu.be/VcfDnAAx8Sk)</strong> (34:52 minutes)
 
 (View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
-### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/master/Pivot_Tables_IPEDS.xlsx)
+### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/main/Pivot_Tables_IPEDS.xlsx)
 
 PivotTables create cross-tabulations displaying values split out across categories displayed as row and/or column headings.  Make sure you have only **one** cell or the entire table selected to ensure Excel auto-detects your data correctly.
 
