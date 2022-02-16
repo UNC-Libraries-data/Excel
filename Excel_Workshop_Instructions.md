@@ -268,7 +268,7 @@ Companion Excel Workbook with all exercises completed with formulas and pasted v
 	* Note: ANY variable that doesn't have missing values will work here. The _Count_ aggregation is essentially counting the number of filled cells in the given categories.  So some values will have slightly different counts due to empty cells.
 * Drag "Control of Institution" to Report Filter. Use the Filter appearing at the top of the screen to select "Public".
 * Use the Row Labels arrow, then More Sort Options to sort by "Count of ID Number"
-	1. What percent of the "Applications Total" go to each fo the top two "Degrees of Urbanization"? (Hint: Use the Show Values As tab in Value Field Settings)
+	1. What percent of the "Applications Total" go to each of the top two "Degrees of Urbanization"? (Hint: Use the Show Values As tab in Value Field Settings)
 ![Solution to PivotTable exercise 3](https://raw.githubusercontent.com/UNC-Libraries-data/Excel/master/media/image16.png)
 	* Assume that we keep the Public filter active. Leave the earlier work in place.
 	* Drag "Applicants Total" to Values and place it under "Count of ID number".
