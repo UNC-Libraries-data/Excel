@@ -8,6 +8,7 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 ## Table of Contents:
 * [Getting Started](#getting-started)
 * [Functions](#functions)
+* [Dropdown Menus](#dropdown-menus)
 * [Common Problems](#common-problems)
 	+ [Delimiters](#splitting-on-delimiters)
 	+ [Filling Blanks](#filling-blanks)
@@ -17,7 +18,7 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 <i><strong>Instructional videos are linked at the beginning of each of the five sections.</strong>  Please list questions on [this page](https://go.unc.edu/ExcelQuestions) for the discussion meeting.</i>
 
 ## Getting Started
-<strong>[Module 1 Video:  Getting Started](https://youtu.be/o7aj5c9GwHY)</strong> (14:12 minutes)
+<strong>[Module 1 Video:  Getting Started](https://youtu.be/pgtTDdz7k-c)</strong> (16:19 minutes)
 
 (View the first sheet of the Excel_Workshop spreadsheet.)
 
@@ -54,7 +55,7 @@ Consider this example of data collected about observed small mammals in desert r
 Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
 
 ## Functions
-<strong>[Module 2 Video:  Functions](https://youtu.be/JJSfHUafclc)</strong> (31:58 minutes)
+<strong>[Module 2 Video:  Functions](https://youtu.be/5rWQqMHJOVs)</strong> (23:06 minutes)
 
 ### Using Functions in Excel
 (View the Functions sheet of the spreadsheet.)
@@ -86,9 +87,21 @@ If you find you need to reformat observations, here are some functions that can 
 
 	* Right-click: Copy
 	* Right-click: Paste Special > Transpose
+	
+## Dropdown Menus
+<strong>[Module 2a Video:  Dropdown Menus](https://youtu.be/LcfjnBoqnFM)</strong> (13:55 minutes)
+(View the Dropdown Menu sheet of the spreadsheet.)
+
+Excel's Data Validation feature gives you options for standardizing data entry to improve data quality.  You'll find it in the Data tab on the ribbon (in the 
+Data Tools section).  Click in the cell (or highlight the multiple cells) where you want the dropdown menu to appear, then click on Data Validation.  You'll 
+get a dialogue box and you'll be on the Settings tab.  Under Validation Criteria, change Any Value to List.  Next, click on the up arrow within the Source 
+box, and click on the Species sheet in the Excel_Workshop file.  Here, highlight the cells you want to show as options, e.g., B2 to B8, and hit Enter (don't 
+include the column heading unless you want it to be a selectable option within your menu).  You can click OK here to finish, or use the Input Message and/or 
+Error Alert tabs to create messages to display to whomever is entering data.  The Error Alert options allow you to block entry of any data that don't match 
+your criteria, or just warn users that the data don't match.
 
 ## Common Problems
-<strong>[Module 3 Video:  Common Problems](https://youtu.be/dVxyR0ROnAM)</strong> (25:51 minutes)
+<strong>[Module 3 Video:  Common Problems](https://youtu.be/OfbMI3rgcds)</strong> (21:20 minutes)
 
 ### Splitting on Delimiters
 (View the Splitting sheet.)
@@ -137,7 +150,7 @@ Sometimes we don't want our references to change as we drag our formulas, though
 The reference above will stay the same no matter where we move it.
 
 ## VLOOKUP
-<strong>[Module 4 Video:  VLOOKUP](https://youtu.be/HW-l6G9ji0I)</strong> (29:14 minutes)
+<strong>[Module 4 Video:  VLOOKUP](https://youtu.be/tyeBHCT7A80)</strong> (18:13 minutes)
 
 (View the VLOOKUP sheet.)  
 The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
@@ -164,7 +177,7 @@ VLOOKUP can refer to a value in a different sheet or even a different workbook o
 
 
 ## Introduction to PivotTables
-<strong>[Module 5 Video:  PivotTables](https://youtu.be/VcfDnAAx8Sk)</strong> (34:52 minutes)
+<strong>[Module 5 Video:  PivotTables](https://youtu.be/1Rh9NEXBwZs)</strong> (23:01 minutes)
 
 (View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
 ### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/main/Pivot_Tables_IPEDS.xlsx)
