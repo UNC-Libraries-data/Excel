@@ -251,7 +251,7 @@ In most cases, there will be **many** rows in your dataset represented by one ce
 ## SOLUTIONS
 _Disclaimer: For many of these questions, there are multiple ways to get to the correct values. These are merely one way you could get the desired results._
 
-### [Completed Companion Excel Workbook](https://github.com/UNC-Libraries-data/Excel/raw/master/Excel_Workshop_Completed.xlsx)
+### [Completed Companion Excel Workbook](https://github.com/UNC-Libraries-data/Excel/raw/main/Excel_Workshop_Completed.xlsx)
 
 Companion Excel Workbook with all exercises completed with formulas and pasted values.
 
