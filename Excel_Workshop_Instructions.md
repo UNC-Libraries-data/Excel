@@ -158,11 +158,11 @@ The VLOOKUP function provides a way to merge or join additional data into a data
 ![VLOOKUP example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image8.png?raw=true)
 
 
-So here's an example of a VLOOKUP function:
+Here's an example of a VLOOKUP function:
 
 **`=VLOOKUP(A3,$F$3:$G$9,2,FALSE)`**
 
-and here's what each element of the function means:
+Let's take a closer look at what each element of the function means:
 
 |Value|Parameter|Description|
 |-----|---------|-----------|
@@ -175,6 +175,8 @@ VLOOKUP can refer to a value in a different sheet or even a different workbook o
 
 (View the Ex_Main sheet for a second, more complex VLOOKUP exercise which will look up a second table located in the Ex_Lookup sheet.)
 
+### XLOOKUP
+VLOOKUP will eventually be replaced by a new function called XLOOKUP.  The most recent versions of Excel on Mac, PC, and online include XLOOKUP and VLOOKUP, but older versions (e.g. 2016, 2019) only use VLOOKUP.  We'll cover XLOOKUP in future semesters.  If you're interested in learning more, see the [official documentation for XLOOKUP](https://support.microsoft.com/en-us/office/xlookup-function-b7fd680e-6d10-43e6-84f9-88eae8bf5929).
 
 ## Introduction to PivotTables
 <strong>[Module 5 Video:  PivotTables](https://youtu.be/1Rh9NEXBwZs)</strong> (23:01 minutes)
