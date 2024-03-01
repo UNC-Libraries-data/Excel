@@ -34,7 +34,7 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 | Select entire row | SHIFT+SPACEBAR | SHIFT+SPACEBAR |
 | Enter value into all selected cells* | CTRL+ENTER | &#8984;+RETURN |
 
-*Highlight empty cells; type the value you want to enter in all of them; press the shortcut keys.
+*Highlight empty cells; click into the formula bar above your data; type the value you want to enter in all of them; press the shortcut keys.
 
 We’ll come back to this last shortcut—it’s useful and we’ll cover it in more detail, but it’ll make more sense when you see the example in the spreadsheet.
 
