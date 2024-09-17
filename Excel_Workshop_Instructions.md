@@ -272,8 +272,7 @@ Companion Excel Workbook with all exercises completed with formulas and pasted v
 * Click "ACT Composite 75th Percentile Score" to Values and select Value Field Settings...
 	* Change Summarize Values by to _Average_.
 * Sort the table by clicking the arrow icon in the corner of _Row Labels_ on the table itself (see arrow)
-	* Click More Sort Options, then select Descending (Z to A) and set to "Average of ACT Composite 75th Percentile Score"
-
+	* Click More Sort Options, then select Descending (Z to A) and set to "Average of ACT Composite 75th Percentile Score
 ![Example of sorting a PivotTable](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image14.png?raw=true)
 
 3. Which category of "Degree of Urbanization" contains the most public ("Control of Institution") universities?
