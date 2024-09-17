@@ -108,7 +108,7 @@ your criteria, or just warn users that the data don't match.
 
 The "Text to Columns" tool (Data Tab>) lets you split a cell into multiple cells based on width or a special character (delimiter).
 
-![Text to columns example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image3.png?raw=true)
+![Text to columns example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image3.png?raw=true)
 
 ### Filling Blanks
 When dealing with human-readable text, we often have categories listed once with the implication that all lines before the next category fall into this group. For example, in the Blanks sheet we might assume that Bertie Rudolph is a Freshman. While this is human readable, the relationship won't be clear to the computer!
@@ -133,7 +133,7 @@ There are a couple of ways to fill such blanks.
 2. * (PC) Home Tab, Editing > Find & Select > Go to Special > Blanks > OK
 * (Mac) Edit Menu > Find > Go To...> Special... > Blanks > OK
 * Type =, then hit the up directional arrow. Hit CTRL+Enter (PC) or &#8984;+Enter (Mac)
-![Filling blanks example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image4&5.PNG?raw=true)
+![Filling blanks example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image4&5.PNG?raw=true)
 
 ### Cell References
 
@@ -155,7 +155,7 @@ The reference above will stay the same no matter where we move it.
 (View the VLOOKUP sheet.)  
 The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
 
-![VLOOKUP example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image8.png?raw=true)
+![VLOOKUP example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image8.png?raw=true)
 
 
 Here's an example of a VLOOKUP function:
@@ -199,13 +199,13 @@ Go ahead and drag the category <strong>State</strong> to the Rows area, and <str
 
 **Values:** The _numbers_ shown in the cells of the PivotTable (each cell summarizes one variable for the group defined by the combination of its column and row categories.)
 
-![PivotTable example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image9.png?raw=true)
+![PivotTable example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image9.png?raw=true)
 
 In most cases, there will be **many** rows in your dataset represented by one cell in your PivotTable, so we need to summarize or aggregate the data. In the example above, there are many public or private universities in each state.
 
 ### Aggregation of Values
 * Click on the field in the Values area and choose "Value Field Settings" in the window that appears to change the default aggregation.
-![Example of changing default aggregation in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image10.png?raw=true)
+![Example of changing default aggregation in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image10.png?raw=true)
 * "Summarize Values By" determines the mathematical function used to summarize the cells
 	* Frequencies are available via the Count function. Note: this **will not count missing values.**
 	* _Exercise_: Compare Frequency of "Control of Institution" using Count on "Control of Institution" and a Count on "Applicants Total".
@@ -217,7 +217,7 @@ In most cases, there will be **many** rows in your dataset represented by one ce
 
 ### Sorting and Filtering Columns and Rows
 * Use the arrows at the right of "Row Labels" and "Column Labels"
-![Example of how to sort in Excel](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image11.png?raw=true)
+![Example of how to sort in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image11.png?raw=true)
 * "More Sort Options" provides advanced sorting by Values (_Mac: Not Available_)
 	* Advanced filtering available in "Label Filters" and "Value Filters"
 
@@ -259,14 +259,14 @@ Companion Excel Workbook with all exercises completed with formulas and pasted v
 
 ### Pivot Tables Exercises
 1. What are the "Enrolled Totals" in public and private schools (see "Control of Institution")?
-![Solution to PivotTable exercise](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image12.png?raw=true)
+![Solution to PivotTable exercise](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image12.png?raw=true)
 * Drag "Control of Institutions" to Row Labels to layout the table
 * Drag "Enrolled Total" to Values
 * Click "Enrolled Total" in Values and select Value Field Settings...
 	* Change Summarize Values to _Sum_ instead of the default _Count_
 
 2. Which "Geographic Region" has the highest average "ACT Composite 75th Percentile Score"? How many regions have average scores below the national (Grand Total) average?
-![Solution to PivotTable exercise](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image13.png?raw=true)
+![Solution to PivotTable exercise](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image13.png?raw=true)
 * Drag "Geographic Region" to Row Labels
 * Drag "ACT Composite 75th Percentile Score" to Values
 * Click "ACT Composite 75th Percentile Score" to Values and select Value Field Settings...
@@ -274,17 +274,17 @@ Companion Excel Workbook with all exercises completed with formulas and pasted v
 * Sort the table by clicking the arrow icon in the corner of _Row Labels_ on the table itself (see arrow)
 	* Click More Sort Options, then select Descending (Z to A) and set to "Average of ACT Composite 75th Percentile Score"
 
-![Example of sorting a PivotTable](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image14.png?raw=true)
+![Example of sorting a PivotTable](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image14.png?raw=true)
 
 3. Which category of "Degree of Urbanization" contains the most public ("Control of Institution") universities?
-![Solution to PivotTable exercise](https://github.com/UNC-Libraries-data/Excel/blob/master/media/image15.png?raw=true)
+![Solution to PivotTable exercise](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image15.png?raw=true)
 * Drag "Degree of Urbanization" to Row Labels. Drag "ID number" to Values.
 * Click "ID Number" in Values, then Value Field Settings > Summarize Values by to set aggregation to _Count_.
 	* Note: ANY variable that doesn't have missing values will work here. The _Count_ aggregation is essentially counting the number of filled cells in the given categories.  So some values will have slightly different counts due to empty cells.
 * Drag "Control of Institution" to Report Filter. Use the Filter appearing at the top of the screen to select "Public".
 * Use the Row Labels arrow, then More Sort Options to sort by "Count of ID Number"
 	1. What percent of the "Applications Total" go to each of the top two "Degrees of Urbanization"? (Hint: Use the Show Values As tab in Value Field Settings)
-![Solution to PivotTable exercise 3](https://raw.githubusercontent.com/UNC-Libraries-data/Excel/master/media/image16.png)
+![Solution to PivotTable exercise 3](https://raw.githubusercontent.com/UNC-Libraries-data/Excel/main/media/image16.png)
 	* Assume that we keep the Public filter active. Leave the earlier work in place.
 	* Drag "Applicants Total" to Values and place it under "Count of ID number".
 	* Click "Applicants Total" and select Value Field Settings
