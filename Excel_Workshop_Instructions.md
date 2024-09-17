@@ -240,11 +240,10 @@ In most cases, there will be **many** rows in your dataset represented by one ce
 * Macros: Record and re-use processes, or write your own code
 
 ### Getting Help:
-* [LinkedIn Learning through UNC](https://software.sites.unc.edu/linkedin/) provides training videos (free to UNC students) on a wide variety of Excel functions.  (See the login link on the right side of the UNC Software Distribution page.)
-* [Carolina Talent](https://hr.unc.edu/carolinatalent/) provides similar resources to Faculty and Staff.
+* [LinkedIn Learning through UNC](https://software.sites.unc.edu/linkedin/) provides training videos (free to UNC affiliates) on a wide variety of Excel functions.  (See the login link on the right side of the UNC Software Distribution page.)
 * [Data Carpentry - Spreadsheets](http://datacarpentry.org/spreadsheets-socialsci/)
-* [Michele Hayslett](http://guides.lib.unc.edu/michelehayslett) of the Davis Library Research Hub is available for one-on-one consultations.
-* [Matt Jansen](http://guides.lib.unc.edu/mattjansen) of the Davis Library Research Hub is available for one-on-one consultations.
+* [Michele Hayslett](http://guides.lib.unc.edu/michelehayslett) of the Library Data Services is available for one-on-one consultations.
+* [Matt Jansen](http://guides.lib.unc.edu/mattjansen) of the Library Data Services is available for one-on-one consultations.
 
 ### Data Sources:
 * [World Development Indicators](https://data.worldbank.org/products/wdi) (Excel_Workshop.xlsx)
