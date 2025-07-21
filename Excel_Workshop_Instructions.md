@@ -12,7 +12,7 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 * [Common Problems](#common-problems)
 	+ [Delimiters](#splitting-on-delimiters)
 	+ [Filling Blanks](#filling-blanks)
-* [VLOOKUP](#vlookup)
+* [XLOOKUP](#xlookup)
 * [PivotTables](#introduction-to-pivottables)
 
 <i><strong>Instructional videos are linked at the beginning of each of the five sections.</strong>  Please list questions on [this page](https://go.unc.edu/ExcelQuestions) for the discussion meeting.</i>
@@ -149,34 +149,40 @@ Sometimes we don't want our references to change as we drag our formulas, though
 
 The reference above will stay the same no matter where we move it.
 
-## VLOOKUP
-<strong>[Module 4 Video:  VLOOKUP](https://youtu.be/tyeBHCT7A80)</strong> (18:13 minutes)
+## XLOOKUP
+(View the XLOOKUP sheet.)  
+The XLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
 
-(View the VLOOKUP sheet.)  
-The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
-
-![VLOOKUP example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image8.png?raw=true)
+![lookup example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image8_1.png?raw=true)
 
 
-Here's an example of a VLOOKUP function:
+Here's an example of an XLOOKUP function:
 
-**`=VLOOKUP(A3,$F$3:$G$9,2,FALSE)`**
+**`=XLOOKUP(E5,$A$5:$A$11,$B$5:$C$11)`**
 
 Let's take a closer look at what each element of the function means:
 
 |Value|Parameter|Description|
 |-----|---------|-----------|
-|A3|lookup_value|_Value in our main table_ that we're looking to match in the other table|
-|$F$3:$G$9|table_array|The _other table_ we need information from (lock references with $)|
-|2|col_index_num|The _column from the other table_ we're looking for|
+|E5|lookup_value|_Value in our main table_ that we're looking to match in the other table|
+|$A$5:$A$11|table_array|The _lookup column_ where we're looking to match the lookup_value (lock references with $)|
+|2$B$5:$C$11|return_array|The _column from the other table_ we want to add to our current table|
 |FALSE|[range_lookup]|Whether you want approximate matches [TRUE] or exact matches [FALSE]|
 
-VLOOKUP can refer to a value in a different sheet or even a different workbook on your computer.  If you click into a cell on the other table while filling out your VLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.
+There are also three optional elements we can add:
 
-(View the Ex_Main sheet for a second, more complex VLOOKUP exercise which will look up a second table located in the Ex_Lookup sheet.)
+|Parameter|Default|Description|
+|-----|---------|-----------|
+|if_not_found|#N/A|We could replace this with blank ("") or "Not found" if desired|
+|match_mode|0-Exact Match|This could let us find near matches. We'll ususally leave this at the default.|
+|search_mode|1-Search starting at the first item.|Sometimes we might want the last match instead of the first one if there are multiple matches.|
 
-### XLOOKUP
-VLOOKUP (and its corollary function, HLOOKUP) will eventually be replaced by a new function called XLOOKUP.  The most recent versions of Excel on Mac, PC, and online include XLOOKUP and VLOOKUP, but older versions (e.g. 2016, 2019) only use VLOOKUP.  We'll cover XLOOKUP in future semesters.  If you're interested in learning more, see the [official documentation for XLOOKUP](https://support.microsoft.com/en-us/office/xlookup-function-b7fd680e-6d10-43e6-84f9-88eae8bf5929).
+XLOOKUP can refer to a value in a different sheet or even a different workbook on your computer.  If you click into a cell on the other table while filling out your XLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.  Remember you can use Escape to clear a formula.
+
+If you're interested in learning more about XLOOKUP, see the [official documentation for XLOOKUP](https://support.microsoft.com/en-us/office/xlookup-function-b7fd680e-6d10-43e6-84f9-88eae8bf5929).
+
+### VLOOKUP
+Older versions of Excel use the VLOOKUP function (and its corollary function, HLOOKUP), but these will eventually be replaced by XLOOKUP.  Our old VLOOKUP exercise is recorded here <strong>[VLOOKUP](https://youtu.be/tyeBHCT7A80)</strong> (18:13 minutes)  
 
 ## Introduction to PivotTables
 <strong>[Module 5 Video:  PivotTables](https://youtu.be/1Rh9NEXBwZs)</strong> (23:01 minutes)
