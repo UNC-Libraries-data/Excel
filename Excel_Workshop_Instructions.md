@@ -18,7 +18,6 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 <i><strong>Instructional videos are linked at the beginning of each of the five sections.</strong>  Please list questions on [this page](https://go.unc.edu/ExcelQuestions) for the discussion meeting.</i>
 
 ## Getting Started
-<strong>[Module 1 Video:  Getting Started](https://youtu.be/pgtTDdz7k-c)</strong> (16:19 minutes)
 
 (View the first sheet of the Excel_Workshop spreadsheet.)
 
@@ -55,7 +54,6 @@ Consider this example of data collected about observed small mammals in desert r
 Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
 
 ## Functions
-<strong>[Module 2 Video:  Functions](https://youtu.be/5rWQqMHJOVs)</strong> (23:06 minutes)
 
 ### Using Functions in Excel
 (View the Functions sheet of the spreadsheet.)
@@ -181,11 +179,7 @@ XLOOKUP can refer to a value in a different sheet or even a different workbook o
 
 If you're interested in learning more about XLOOKUP, see the [official documentation for XLOOKUP](https://support.microsoft.com/en-us/office/xlookup-function-b7fd680e-6d10-43e6-84f9-88eae8bf5929).
 
-### VLOOKUP
-Older versions of Excel use the VLOOKUP function (and its corollary function, HLOOKUP), but these will eventually be replaced by XLOOKUP.  Our old VLOOKUP exercise is recorded here <strong>[VLOOKUP](https://youtu.be/tyeBHCT7A80)</strong> (18:13 minutes)  
-
 ## Introduction to PivotTables
-<strong>[Module 5 Video:  PivotTables](https://youtu.be/1Rh9NEXBwZs)</strong> (23:01 minutes)
 
 (View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
 ### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/main/Pivot_Tables_IPEDS.xlsx)
