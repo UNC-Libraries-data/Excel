@@ -15,8 +15,6 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 * [XLOOKUP](#xlookup)
 * [PivotTables](#introduction-to-pivottables)
 
-<i><strong>Instructional videos are linked at the beginning of each of the five sections.</strong>  Please list questions on [this page](https://go.unc.edu/ExcelQuestions) for the discussion meeting.</i>
-
 ## Getting Started
 
 (View the first sheet of the Excel_Workshop spreadsheet.)
