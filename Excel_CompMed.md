@@ -11,14 +11,13 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 * [Dropdown Menus](#dropdown-menus)
 * [Common Problems](#common-problems)
 	+ [Delimiters](#splitting-on-delimiters)
-	<!--+ [Filling Blanks](#filling-blanks)-->
-* [VLOOKUP](#vlookup)
+	+ [Filling Blanks](#filling-blanks)
+* [XLOOKUP](#xlookup)
 * [PivotTables](#introduction-to-pivottables)
 
 <i><strong>Instructional videos are linked at the beginning of each of the five sections.</strong>  Please list questions on [this page](https://go.unc.edu/ExcelQuestions) for the discussion meeting.</i>
 
 ## Getting Started
-<strong>[Module 1 Video:  Getting Started](https://youtu.be/pgtTDdz7k-c)</strong> (16:19 minutes)
 
 (View the first sheet of the Excel_Workshop spreadsheet.)
 
@@ -55,7 +54,6 @@ Consider this example of data collected about observed small mammals in desert r
 Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
 
 ## Functions
-<strong>[Module 2 Video:  Functions](https://youtu.be/5rWQqMHJOVs)</strong> (23:06 minutes)
 
 ### Using Functions in Excel
 (View the Functions sheet of the spreadsheet.)
@@ -89,8 +87,6 @@ If you find you need to reformat observations, here are some functions that can 
 	* Right-click: Paste Special > Transpose
 	
 ## Dropdown Menus
-<strong>[Module 2a Video:  Dropdown Menus](https://youtu.be/LcfjnBoqnFM)</strong> (13:55 minutes)
-(View the Dropdown Menu sheet of the spreadsheet.)
 
 Excel's Data Validation feature gives you options for standardizing data entry to improve data quality.  You'll find it in the Data tab on the ribbon (in the 
 Data Tools section).  Click in the cell (or highlight the multiple cells) where you want the dropdown menu to appear, then click on Data Validation.  You'll 
@@ -101,7 +97,6 @@ Error Alert tabs to create messages to display to whomever is entering data.  Th
 your criteria, or just warn users that the data don't match.
 
 ## Common Problems
-<strong>[Module 3 Video:  Common Problems](https://youtu.be/OfbMI3rgcds)</strong> (21:20 minutes)
 
 ### Splitting on Delimiters
 (View the Splitting sheet.)
@@ -110,7 +105,6 @@ The "Text to Columns" tool (Data Tab>) lets you split a cell into multiple cells
 
 ![Text to columns example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image3.png?raw=true)
 
-<!--
 ### Filling Blanks
 When dealing with human-readable text, we often have categories listed once with the implication that all lines before the next category fall into this group. For example, in the Blanks sheet we might assume that Bertie Rudolph is a Freshman. While this is human readable, the relationship won't be clear to the computer!
 
@@ -136,7 +130,6 @@ There are a couple of ways to fill such blanks.
 * Type =, then hit the up directional arrow. Hit CTRL+Enter (PC) or &#8984;+Enter (Mac)
 ![Filling blanks example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image4&5.PNG?raw=true)
 
--->
 ### Cell References
 
 In each of our formulas so far, we've referred to cells like this:
@@ -151,37 +144,39 @@ Sometimes we don't want our references to change as we drag our formulas, though
 
 The reference above will stay the same no matter where we move it.
 
-## VLOOKUP
-<strong>[Module 4 Video:  VLOOKUP](https://youtu.be/tyeBHCT7A80)</strong> (18:13 minutes)
+## XLOOKUP
+(View the XLOOKUP sheet.)  
+The XLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
 
-(View the VLOOKUP sheet.)  
-The VLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
-
-![VLOOKUP example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image8.png?raw=true)
+![lookup example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image8_1.png?raw=true)
 
 
-Here's an example of a VLOOKUP function:
+Here's an example of an XLOOKUP function:
 
-**`=VLOOKUP(A3,$F$3:$G$9,2,FALSE)`**
+**`=XLOOKUP(E5,$A$5:$A$11,$B$5:$C$11)`**
 
 Let's take a closer look at what each element of the function means:
 
 |Value|Parameter|Description|
 |-----|---------|-----------|
-|A3|lookup_value|_Value in our main table_ that we're looking to match in the other table|
-|$F$3:$G$9|table_array|The _other table_ we need information from (lock references with $)|
-|2|col_index_num|The _column from the other table_ we're looking for|
+|E5|lookup_value|_Value in our main table_ that we're looking to match in the other table|
+|$A$5:$A$11|table_array|The _lookup column_ where we're looking to match the lookup_value (lock references with $)|
+|2$B$5:$C$11|return_array|The _column from the other table_ we want to add to our current table|
 |FALSE|[range_lookup]|Whether you want approximate matches [TRUE] or exact matches [FALSE]|
 
-VLOOKUP can refer to a value in a different sheet or even a different workbook on your computer.  If you click into a cell on the other table while filling out your VLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.
+There are also three optional elements we can add:
 
-(View the Ex_Main sheet for a second, more complex VLOOKUP exercise which will look up a second table located in the Ex_Lookup sheet.)
+|Parameter|Default|Description|
+|-----|---------|-----------|
+|if_not_found|#N/A|We could replace this with blank ("") or "Not found" if desired|
+|match_mode|0-Exact Match|This could let us find near matches. We'll ususally leave this at the default.|
+|search_mode|1-Search starting at the first item.|Sometimes we might want the last match instead of the first one if there are multiple matches.|
 
-### XLOOKUP
-VLOOKUP (and its corollary function, HLOOKUP) will eventually be replaced by a new function called XLOOKUP.  The most recent versions of Excel on Mac, PC, and online include XLOOKUP and VLOOKUP, but older versions (e.g. 2016, 2019) only use VLOOKUP.  We'll cover XLOOKUP in future semesters.  If you're interested in learning more, see the [official documentation for XLOOKUP](https://support.microsoft.com/en-us/office/xlookup-function-b7fd680e-6d10-43e6-84f9-88eae8bf5929).
+XLOOKUP can refer to a value in a different sheet or even a different workbook on your computer.  If you click into a cell on the other table while filling out your XLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.  Remember you can use Escape to clear a formula.
+
+If you're interested in learning more about XLOOKUP, see the [official documentation for XLOOKUP](https://support.microsoft.com/en-us/office/xlookup-function-b7fd680e-6d10-43e6-84f9-88eae8bf5929).
 
 ## Introduction to PivotTables
-<strong>[Module 5 Video:  PivotTables](https://youtu.be/1Rh9NEXBwZs)</strong> (23:01 minutes)
 
 (View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
 ### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/main/Pivot_Tables_IPEDS.xlsx)
