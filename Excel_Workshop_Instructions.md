@@ -164,7 +164,7 @@ Let's take a closer look at what each element of the function means:
 |-----|---------|-----------|
 |E5|lookup_value|_Value in our main table_ that we're looking to match in the other table|
 |$A$5:$A$11|table_array|The _lookup column_ where we're looking to match the lookup_value (lock references with $)|
-|2$B$5:$C$11|return_array|The _column from the other table_ we want to add to our current table|
+|$B$5:$C$11|return_array|The _column from the other table_ we want to add to our current table|
 |FALSE|[range_lookup]|Whether you want approximate matches [TRUE] or exact matches [FALSE]|
 
 There are also three optional elements we can add:
