@@ -158,7 +158,7 @@ Here's an example of an XLOOKUP function:
 
 **`=XLOOKUP(E5,$A$5:$A$11,$B$5:$C$11)`**
 
-Let's take a closer look at what each element of the function means:
+Let's take a closer look at what each element of the function means using Exercise 1:
 
 |Value|Parameter|Description|
 |-----|---------|-----------|
@@ -171,9 +171,11 @@ There are also three optional elements we can add:
 
 |Parameter|Default|Description|
 |-----|---------|-----------|
-|if_not_found|#N/A|We could replace this with blank ("") or "Not found" if desired|
-|match_mode|0-Exact Match|This could let us find near matches. We'll ususally leave this at the default.|
-|search_mode|1-Search starting at the first item.|Sometimes we might want the last match instead of the first one if there are multiple matches.|
+|if_not_found|#N/A|N/A is the default message returned, but this could be replaced with no message ("") or any other message in quotation marks if desired, e.g., "Not found", "Missing", etc. |
+|match_mode|0-Exact Match|This is the default but other values offer flexibility (refer to [Excel documentation](https://support.microsoft.com/en-us/excel/functions/xlookup-function) for those other options). We'll ususally leave this at the default.|
+|search_mode|1-Search starting at the first item.|Sometimes we might want the last match instead of the first one if there are multiple matches, say, if the last match is a more recent (i.e. up to date) transaction.  -1 runs the search in reverse.|
+
+Exercise 2 uses two of these optional elements.
 
 XLOOKUP can refer to a value in a different sheet or even a different workbook on your computer.  If you click into a cell on the other table while filling out your XLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.  Remember you can use Escape to clear a formula.
 
