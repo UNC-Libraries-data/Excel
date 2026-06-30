@@ -175,11 +175,11 @@ There are also three optional elements we can add:
 |match_mode|0-Exact Match|This is the default but other values offer flexibility (refer to [Excel documentation](https://support.microsoft.com/en-us/excel/functions/xlookup-function) for those other options). We'll ususally leave this at the default.|
 |search_mode|1-Search starting at the first item.|Sometimes we might want the last match instead of the first one if there are multiple matches, say, if the last match is a more recent (i.e. up to date) transaction.  -1 runs the search in reverse.|
 
-Exercise 2 uses two of these optional elements.
+Exercise 2 uses two of these optional elements.  It also shows that XLOOKUP can be applied horizontally, looking for the values in a row, as well as (like in Exercise 1) vertically, looking for the values in a column.  Earlier versions of the XLOOKUP function were separate (HLOOKUP for horizontal arrangements, and VLOOKUP for vertical ones), but XLOOKUP handles both.
 
-XLOOKUP can refer to a value in a different sheet or even a different workbook on your computer.  If you click into a cell on the other table while filling out your XLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or workbook.  Remember you can use Escape to clear a formula.
+XLOOKUP can also use values in a different sheet/tab of your workbook or even an entirely different spreadsheet file on your computer.  If you click into a cell in the other table while filling out your XLOOKUP formula, it will automatically supply the reference necessary to link to the other sheet or file.  Remember you can use Escape to clear a formula.
 
-If you're interested in learning more about XLOOKUP, see the [official documentation for XLOOKUP](https://support.microsoft.com/en-us/office/xlookup-function-b7fd680e-6d10-43e6-84f9-88eae8bf5929).
+If you're interested in learning more about XLOOKUP, see the [official documentation for XLOOKUP](https://support.microsoft.com/en-us/excel/functions/xlookup-function).
 
 ## Introduction to PivotTables
 
