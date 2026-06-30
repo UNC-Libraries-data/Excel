@@ -173,7 +173,7 @@ There are also three optional elements we can add:
 |-----|---------|-----------|
 |if_not_found|#N/A|N/A is the default message returned, but this could be replaced with no message ("") or any other message in quotation marks if desired, e.g., "Not found", "Missing", etc. |
 |match_mode|0-Exact Match|This is the default but other values offer flexibility (refer to [Excel documentation](https://support.microsoft.com/en-us/excel/functions/xlookup-function) for those other options). We'll ususally leave this at the default.|
-|search_mode|1-Search starting at the first item.|Sometimes we might want the last match instead of the first one if there are multiple matches, say, if the last match is a more recent (i.e. up to date) transaction.  -1 runs the search in reverse.|
+|search_mode|1-Search starting at the first item.|Sometimes we might want the last match instead of the first one if there are multiple matches, say, if the last match is a more recent (i.e. up to date) transaction or make-up grade.  -1 runs the search in reverse.|
 
 Exercise 2 uses two of these optional elements.  It also shows that XLOOKUP can be applied horizontally, looking for the values in a row, as well as (like in Exercise 1) vertically, looking for the values in a column.  Earlier versions of the XLOOKUP function were separate (HLOOKUP for horizontal arrangements, and VLOOKUP for vertical ones), but XLOOKUP handles both.
 
