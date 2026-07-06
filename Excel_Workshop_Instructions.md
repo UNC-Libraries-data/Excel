@@ -51,7 +51,7 @@ Consider this example of data collected about observed small mammals in desert r
 
 ![not-so-Tidy Data example](https://github.com/UNC-Libraries-data/Excel/blob/main/media/Ecologists-Carpentries-tidy-data.png?raw=true)
 
-Try saving your data as a .csv (common separate values) file. This saves just the active sheet *without formatting*.
+Try saving your data as a .csv (comma separate values) file. This saves just the active sheet *without formatting*.
 
 ## Functions
 
