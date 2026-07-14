@@ -133,6 +133,8 @@ There are a couple of ways to fill such blanks.
 * Type =, then hit the up directional arrow. Hit CTRL+Enter (PC) or &#8984;+Enter (Mac)
 ![Filling blanks example in Excel](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image4&5.PNG?raw=true)
 
+
+## XLOOKUP
 ### Cell References
 
 In each of our formulas so far, we've referred to cells like this:
@@ -147,7 +149,6 @@ Sometimes we don't want our references to change as we drag our formulas, though
 
 The reference above will stay the same no matter where we move it.
 
-## XLOOKUP
 (View the XLOOKUP sheet.)  
 The XLOOKUP function provides a way to merge or join additional data into a dataset, using a common code or value.
 
