@@ -245,8 +245,7 @@ In most cases, there will be **many** rows in your dataset represented by one ce
 ### Getting Help:
 * [LinkedIn Learning through UNC](https://software.sites.unc.edu/linkedin/) provides training videos (free to UNC affiliates) on a wide variety of Excel functions.  (See the login link on the right side of the UNC Software Distribution page.)
 * [Data Carpentry - Spreadsheets](http://datacarpentry.org/spreadsheets-socialsci/)
-* [Michele Hayslett](http://guides.lib.unc.edu/michelehayslett) of the Library Data Services is available for one-on-one consultations.
-* [Matt Jansen](http://guides.lib.unc.edu/mattjansen) of the Library Data Services is available for one-on-one consultations.
+* Contact [Library Data Services](mailto:library-data-services@unc.edu) for questions about the material in this series.
 
 ### Data Sources:
 * [World Development Indicators](https://data.worldbank.org/products/wdi) (Excel_Workshop.xlsx)
