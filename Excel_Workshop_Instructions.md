@@ -240,7 +240,6 @@ In most cases, there will be **many** rows in your dataset represented by one ce
 	* Data Tab > Get & Transform
 * Data Validation: Control data entry to prevent errors
 	* Data Tab > Data Validation
-* Macros: Record and re-use processes, or write your own code
 
 ### Getting Help:
 * [LinkedIn Learning through UNC](https://software.sites.unc.edu/linkedin/) provides training videos (free to UNC affiliates) on a wide variety of Excel functions.  (See the login link on the right side of the UNC Software Distribution page.)
