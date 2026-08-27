@@ -189,6 +189,7 @@ If you're interested in learning more about XLOOKUP, see the [official documenta
 
 ## Introduction to PivotTables
 [Pivot Tables video](https://apps.microsoft.com/detail/xp89dcgq3k6vld?hl=en-US&gl=US) (~25 min)
+
 (View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
 ### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/main/Pivot_Tables_IPEDS.xlsx)
 
