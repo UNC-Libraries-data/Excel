@@ -190,7 +190,7 @@ If you're interested in learning more about XLOOKUP, see the [official documenta
 ## Introduction to PivotTables
 [Pivot Tables video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=60c2ba92-2b85-4179-a088-b48a0144fde5) (~25 min)  *NOTE: this video is best viewed in full-screen mode.*
 
-(View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
+(View the second Excel spreadsheet, Pivot_Tables_IPEDS, linked below.)
 ### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/main/Pivot_Tables_IPEDS.xlsx)
 
 PivotTables create cross-tabulations displaying values split out across categories displayed as row and/or column headings.  Make sure you have only **one** cell or the entire table selected to ensure Excel auto-detects your data correctly.
