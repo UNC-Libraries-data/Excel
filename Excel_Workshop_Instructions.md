@@ -19,6 +19,7 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 
 ## Getting Started
 
+[Getting Started video] (https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94a024bf-7b81-45c8-b3c3-b48101011d59) (18:04 minutes)
 (View the first sheet of the Excel_Workshop spreadsheet.)
 
 ### Shortcuts
