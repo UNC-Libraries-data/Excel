@@ -102,7 +102,7 @@ Error Alert tabs to create messages to display to whomever is entering data.  Th
 your criteria, or just warn users that the data don't match.
 
 ## Common Problems
-[Common Problems video]([https://youtu.be/OfbMI3rgcds](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d77319de-7a33-49c4-b1c2-b481015a2072)) (~13 min)
+[Common Problems video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d77319de-7a33-49c4-b1c2-b481015a2072) (~13 min)
 
 ### Splitting on Delimiters
 (View the Splitting sheet.)
