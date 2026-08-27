@@ -188,7 +188,8 @@ XLOOKUP can also use values in a different sheet/tab of your workbook or even an
 If you're interested in learning more about XLOOKUP, see the [official documentation for XLOOKUP](https://support.microsoft.com/en-us/excel/functions/xlookup-function).
 
 ## Introduction to PivotTables
-[Pivot Tables video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=60c2ba92-2b85-4179-a088-b48a0144fde5) (~25 min)  *NOTE: this video is best viewd in full-screen mode.*
+[Pivot Tables video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=60c2ba92-2b85-4179-a088-b48a0144fde5) (~25 min)  *NOTE: this video is best viewed in full-screen mode.*
+
 (View the second Excel spreadsheet, Pivot_Tables_IPEDS.)
 ### [Pivot_Tables_IPEDS.xlsx](https://github.com/UNC-Libraries-data/Excel/raw/main/Pivot_Tables_IPEDS.xlsx)
 
