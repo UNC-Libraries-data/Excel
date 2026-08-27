@@ -94,7 +94,8 @@ If you find you need to reformat observations, here are some functions that can 
 (View the Dropdown Menu sheet of the spreadsheet.)
 
 Excel's Data Validation feature gives you options for standardizing data entry to improve data quality.  You'll find it in the Data tab on the ribbon (in the 
-Data Tools section).  Click in the cell (or highlight the multiple cells) where you want the dropdown menu to appear, then click on Data Validation.  You'll 
+Data Tools section--this is the same for both PCs and Mac machines).  
+Click in the cell (or highlight the multiple cells) where you want the dropdown menu to appear, then click on Data Validation.  You'll 
 get a dialogue box and you'll be on the Settings tab.  Under Validation Criteria, change Any Value to List.  Next, click on the up arrow within the Source 
 box, and click on the Species sheet in the Excel_Workshop file.  Here, highlight the cells you want to show as options, e.g., B2 to B8, and hit Enter (don't 
 include the column heading unless you want it to be a selectable option within your menu).  You can click OK here to finish, or use the Input Message and/or 
@@ -138,6 +139,7 @@ There are a couple of ways to fill such blanks.
 
 
 ## XLOOKUP
+[XLOOKUP video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7a8b2140-6e4e-4659-8cd6-b4870129b38b) (~11 min)
 ### Cell References
 
 In each of our formulas so far, we've referred to cells like this:
