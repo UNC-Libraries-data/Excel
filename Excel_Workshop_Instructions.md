@@ -19,7 +19,7 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 
 ## Getting Started
 
-[Getting Started video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94a024bf-7b81-45c8-b3c3-b48101011d59) (18:04 minutes)
+[Getting Started video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94a024bf-7b81-45c8-b3c3-b48101011d59) (~18 min)
 
 (View the first sheet of the Excel_Workshop spreadsheet.)
 
@@ -56,7 +56,7 @@ Consider this example of data collected about observed small mammals in desert r
 Try saving your data as a .csv (comma separate values) file. This saves just the active sheet *without formatting*.
 
 ## Functions
-[Functions video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44708f32-aff8-40fa-bff5-b481013d2834) (16:07 minutes)
+[Functions video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44708f32-aff8-40fa-bff5-b481013d2834) (~16 min)
 ### Using Functions in Excel
 (View the Functions sheet of the spreadsheet.)
 
@@ -89,7 +89,8 @@ If you find you need to reformat observations, here are some functions that can 
 	* Right-click: Paste Special > Transpose
 	
 ## Dropdown Menus
-<strong>[Module 2a Video:  Dropdown Menus](https://youtu.be/LcfjnBoqnFM)</strong> (13:55 minutes)
+[Dropdown Menus video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fef612b3-2900-4926-affd-b4810159d9f1) (~9 min)
+
 (View the Dropdown Menu sheet of the spreadsheet.)
 
 Excel's Data Validation feature gives you options for standardizing data entry to improve data quality.  You'll find it in the Data tab on the ribbon (in the 
