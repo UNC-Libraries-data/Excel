@@ -19,7 +19,7 @@ Position your windows so the spreadsheet takes up half your screen and this guid
 
 ## Getting Started
 
-[Getting Started video] (https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94a024bf-7b81-45c8-b3c3-b48101011d59) (18:04 minutes)
+[Getting Started video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94a024bf-7b81-45c8-b3c3-b48101011d59) (18:04 minutes)
 
 (View the first sheet of the Excel_Workshop spreadsheet.)
 
@@ -56,7 +56,7 @@ Consider this example of data collected about observed small mammals in desert r
 Try saving your data as a .csv (comma separate values) file. This saves just the active sheet *without formatting*.
 
 ## Functions
-[Functions video] (https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44708f32-aff8-40fa-bff5-b481013d2834) (16:07 minutes)
+[Functions video](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44708f32-aff8-40fa-bff5-b481013d2834) (16:07 minutes)
 ### Using Functions in Excel
 (View the Functions sheet of the spreadsheet.)
 
