@@ -1,5 +1,6 @@
-![UNC Libraries logo](https://github.com/UNC-Libraries-data/Excel/blob/main/media/image1.png?raw=true)
-# Working with Data in Excel
+<img src="https://github.com/UNC-Libraries-data/Excel/blob/main/media/image1.png?raw=true" alt="UNC Libraries Logo" width="20%">
+
+# Working with Data in Excel 
 <strong>Bookmark this page to return to it with ease.</strong>
 ### **[Download Companion Excel Sheet](https://github.com/UNC-Libraries-data/Excel/raw/main/Excel_Workshop.xlsx)**
 Position your windows so the spreadsheet takes up half your screen and this guide takes up the other half.
